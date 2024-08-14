@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <form id="addPersonForm">
+
+        FirstName: <input type="text" id="firstName" name="firstName" required>
+        <br>
+        <br>
+    
+         LastName: <input type="text" id="lastName" name="lastName" required>
+        <br>
+        <br>
+
+        Age : <input type="number" id="age" name="age" required>
+        <br>
+        <br>
+
+        <button type="submit">Add Person</button>
+    </form>
+    
+    <br>
+
+    <table id="peopleTable" border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>   
+   <script src="index.js"></script>
+   <script src="promisesasync.js"></script>
+   <script src="promisesall.js"></script>
+   <script src="promisesallSettled.js"></script>
+   <script src="promisesrace.js"></script>
+   <script src="promisesany.js"></script>
+ </body>
+</html>
